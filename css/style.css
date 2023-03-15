@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: font-family: 'Poppins', sans-serif;;
+    font-family:'Poppins', sans-serif;;
 }
 ul,ol{
     list-style: none;
@@ -20,6 +20,8 @@ a{
 .nevigaction{
     display: flex;
     justify-content: space-between;
+    margin-top: 87px;
+    margin-bottom: 50px;
 }
 .nevigaction .logo .title{
     font-weight: 700;
@@ -37,4 +39,55 @@ a{
 }
 /* -----------------------------
           nav css end
+----------------------------- */
+/* -----------------------------
+          journey css start
+----------------------------- */
+.journey-infuleince{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-bottom: 100px;
+}
+.journey-infuleince .write .heading{
+    font-weight: 700;
+    font-size: 52px;
+}
+.journey-infuleince .write .detiels{
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 16px;
+    margin-bottom: 40px;
+}
+.journey-infuleince .write a{
+    font-weight: 700;
+    font-size: 16px;
+    color: #fff;
+    background: #E02C6D;
+    padding: 10px 25px;
+    border-radius: 41px;
+    text-transform: capitalize;
+}
+.journey-infuleince .write a i{
+    margin-left: 10px;
+    font-size: 24px;
+    position: relative;
+    top: 4px;
+}
+.journey-infuleince .image{
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;
+}
+
+.journey-infuleince .image img {
+    position: relative;
+    top: 20px;
+    left: 95px;
+    width: 440px;
+    height: 414px;
+}
+
+/* -----------------------------
+          journey css end
 ----------------------------- */
