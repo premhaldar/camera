@@ -63,7 +63,7 @@ a{
     font-size: 16px;
     color: #fff;
     background: #E02C6D;
-    padding: 10px 25px;
+    padding: 0px 25px;
     border-radius: 41px;
     text-transform: capitalize;
 }
@@ -90,4 +90,19 @@ a{
 
 /* -----------------------------
           journey css end
+----------------------------- */
+/* -----------------------------
+          logo css start
+----------------------------- */
+.logo-line{
+    padding: 10px 165px;
+    margin-bottom: 100px;
+}
+.logo-image{
+    display: flex;
+    justify-content: space-around;
+    padding: 36px 0;
+}
+/* -----------------------------
+          logo css end
 ----------------------------- */
